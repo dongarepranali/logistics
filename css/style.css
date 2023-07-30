@@ -1,0 +1,102 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+font-family:'Courier New', Courier, monospace;
+}
+.big-wrap{
+  background-image:url(../image/pexels-markie-mad-14005602.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  width:100% !important;
+  height:700px;
+  margin:0 auto !important;
+}
+.big-wrap .reliable{
+  text-align:center;
+}
+.big-wrap .reliable h1{
+  margin-top:20%;
+  font-size:50px;
+  letter-spacing: 2px;
+  color:#fff;
+  font-weight:600;
+}
+.big-wrap .reliable h3{
+  font-size:35px;
+  font-weight:600;
+  color:#fff;
+  letter-spacing: 2px; 
+}
+/* world-wide section start*/
+.world-wide{
+  background-color:rgb(250, 236, 211);
+}
+.world-wide .text {
+  margin-top:30px;
+}
+.world-wide .text .dark {
+  font-size: 41px;
+  font-weight: 700;
+}
+.world-wide .text h3{
+    font-size: 23px;
+    font-weight: 500;
+    color:#aca8a8;
+    padding-left:25px;
+}
+.world-wide img{
+  position: relative;
+  bottom:50px;
+}
+/* service section  */
+.services{
+  margin:0 auto;
+  height:200px;
+  background-color:#fff;
+  text-align: center;
+}
+.services h2{
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 75px;
+}
+.services  .color{
+  color:rgb(238, 113, 68);
+}
+.services h4{
+  color: rgb(202, 201, 201);
+  font-size: 18px;
+  font-weight: 600;
+}
+.services h1{
+  font-size: 30px;
+  font-weight: 700;
+}
+.services h5{
+  font-size:15px;
+}
+.services .adjust{
+
+}
+@media only screen and(max-width:550px){
+  body{
+    width:100%;
+    text-align: center;
+  }
+  .big-wrap{
+    height:500px;
+    width: 100% !important;
+    background-size:cover;
+  }
+  .big-wrap .reliable h1{
+      margin-top:40% !important;
+      font-size:37px !important;
+     
+  }
+  .big-wrap .reliable h3{
+    font-size:30px !important;
+  }
+}
