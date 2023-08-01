@@ -5,6 +5,11 @@
 }
 body{
 font-family:'Courier New', Courier, monospace;
+overflow-x: hidden;
+}
+.nav-button .button-theme{
+  position:relative;
+  top:10px;
 }
 .big-wrap{
   background-image:url(../image/pexels-markie-mad-14005602.jpg);
@@ -47,10 +52,6 @@ font-family:'Courier New', Courier, monospace;
     color:#aca8a8;
     padding-left:25px;
 }
-.world-wide img{
-  position: relative;
-  bottom:50px;
-}
 /* service section  */
 .services{
   margin:0 auto;
@@ -58,7 +59,7 @@ font-family:'Courier New', Courier, monospace;
   background-color:#fff;
   text-align: center;
 }
-.services h2{
+.services .air h2{
   font-size: 30px;
   font-weight: 700;
   margin-top: 75px;
@@ -66,20 +67,37 @@ font-family:'Courier New', Courier, monospace;
 .services  .color{
   color:rgb(238, 113, 68);
 }
-.services h4{
-  color: rgb(202, 201, 201);
+.services .air h4{
+  color: rgb(163, 162, 162);
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 400;
+  margin-bottom:40px;
 }
-.services h1{
+.services .air h1{
   font-size: 30px;
   font-weight: 700;
 }
-.services h5{
+.services .air h5{
   font-size:15px;
+  font-weight:400;
+  letter-spacing: 1px;;
+  color:darkgray;
+  padding:30px;
+}
+.services .air .box:hover{
+   position:relative;
+   bottom:30px;
 }
 .services .adjust{
-
+  margin:0 auto;
+  width:100%;
+}
+.services .adjust h4{
+  text-align:center;
+  width:50%;
+  margin:0 auto;
+  font-size:15px;
+  font-weight:500;
 }
 @media only screen and(max-width:550px){
   body{
@@ -93,10 +111,30 @@ font-family:'Courier New', Courier, monospace;
   }
   .big-wrap .reliable h1{
       margin-top:40% !important;
-      font-size:37px !important;
-     
+      font-size:30px !important;
+      font-weight:500;     
   }
   .big-wrap .reliable h3{
-    font-size:30px !important;
+    font-size:25px !important;
+  }
+  .world-wide .text .dark {
+    font-size:30px;
+    font-weight:500;
+  }
+  .world-wide .text h3{
+    font-size:20px;
+  }
+  .services .air h4{
+    font-size:15px;
+  }
+  .services .air h5{
+    font-size:13px;
+  }
+  .services .air h1{
+    font-size:25px;
+  }
+  .services .adjust h4{
+    width:100% !important;
+    font-size:15px !important;
   }
 }
